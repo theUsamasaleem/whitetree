@@ -1,0 +1,377 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&family=Roboto&display=swap");
+
+body {
+  background-color: #eee;
+  position: relative;
+}
+
+
+/*Logo*/
+.logo {
+  width: 90%;
+  position: absolute;
+  z-index: 2;
+}
+/*Logo*/
+
+/* Header */
+ul {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.8rem;
+}
+
+li {
+  padding-right: 1.2rem;
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+/* Header */
+a {
+  font-size: 1.5rem;
+  font-weight:600;
+  color: #440000;
+}
+
+/* Banner */
+
+.banner-image {
+  background-image: url("../images/Banner-01.jpg");
+  padding-bottom: 100px;
+  margin-top: 1rem;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.banner-text h1{
+  font-family: 'Square Peg', cursive; 
+  font-size: 60px;
+  margin-top: 18rem;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+}
+.banner-text p{
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+}
+
+.btn{
+  background-color: rgb(229, 160, 33);
+  color: #000;
+  padding: 1.3rem 3.5rem;
+  margin-top: 2rem;
+  text-align: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  padding: 10px;
+}
+/* Section Features */
+.sec02 p{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  text-align: center;
+  align-items: center;
+}
+
+.sec02{
+  padding: 40px;
+  background-color: rgb(233, 192, 138);
+}
+
+.sec03{
+  padding: 45px;
+  background-color: hsl(0, 100%, 98%);
+}
+
+.sec03 h2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+  align-items: center;
+}
+
+.sec03 p{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+  align-items: center;
+}
+
+.sec03 hr{
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px;
+  background-color:rgb(233, 192, 138);
+}
+
+
+.sec04 img{
+  width: 100%;  
+}
+
+.sec05 h2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+  align-items: center;
+}
+.sec05 p{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  text-align: center;
+  align-items: center;
+}
+
+.card{
+  background-color: #fff;
+  width: 100%;
+  border-radius: 5%;
+  padding-bottom: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.card img{
+  width: 100%;
+  border-radius: 5%;
+}
+
+.centered {
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  top: 10%;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Square Peg', cursive; 
+  left: 50%;
+  color: #fff;
+  transform: translate(-50%, -50%);
+}
+
+.section {
+  margin-top: 7rem;
+}
+
+.section-features-text {
+  font-family: "Abril Fatface", cursive;
+  font-size: 3.43rem;
+  margin-bottom: 3rem;
+}
+
+.features-one-small-head {
+  margin-top: 1.3rem;
+  font-size: 1.88rem;
+  font-weight: bold;
+}
+
+/* Section Features 2 */
+
+.f2 {
+  border: 1px solid black;
+}
+
+.feature-two-right {
+  margin-top: 8rem;
+  margin-left: 10rem;
+}
+
+.section-2-hero {
+  height: 700px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 2rem;
+}
+
+.feature-two-main-text {
+  font-family: "Abril Fatface", cursive;
+  font-size: 2.8rem;
+}
+
+.feature-two-light-text {
+  font-size: 0.9rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.quantity {
+  margin-top: 6rem;
+  font-size: 4.44rem;
+  color: #274e13;
+  font-weight: bold;
+}
+
+
+.quantit-text {
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+
+/* section 3  */
+
+.section-3-hero {
+  margin-top: 1rem;
+  width: 650px;
+  height: 700px;
+  /* height: 800px; */
+  margin-left: 10rem;
+}
+.section-3-text {
+  margin-left: 1rem;
+}
+.feature-three-main-text {
+  font-family: "Abril Fatface", cursive;
+  font-size: 2.8rem;
+  margin-top: 6rem;
+}
+
+.f4,
+.f5 {
+  margin-top: 5rem;
+}
+.section-four-text-main {
+  font-family: "Abril Fatface", cursive;
+  font-size: 2.69rem;
+  font-weight: bold;
+}
+
+/* Section 5 */
+.f5-box {
+  /*   */
+  padding: auto;
+  /* margin-left: 10px; */
+}
+
+.fz-box {
+  background-color: #234f4b;
+  padding: 3rem;
+}
+.section-five-text-main {
+  font-family: "Abril Fatface", cursive;
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.section-five-text-main-two {
+  font-family: "Abril Fatface", cursive;
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #fff;
+  margin-top: -1rem;
+  /* margin-bottom: 2rem; */
+}
+
+.section-five-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  color: #959595;
+}
+
+/* Subscribe */
+
+.subscribe-text-main {
+  font-family: "Abril Fatface", cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.subscribe-section-second {
+  font-size: 1.3rem;
+  color: #959595;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.subscribe-f {
+  margin-top: 3rem;
+}
+
+/* snow text */
+
+.ghx {
+  background-image: url("../images/subscribe-now-image.png");
+  width: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+  position: absolute;
+  bottom: 28rem;
+  left: 25%;
+}
+
+.snow-text {
+  color: #234f4b;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin-top: 0.9rem;
+}
+
+.snow-text-btn {
+  color: #234f4b;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.logo-2 {
+  color: #ffff;
+  font-weight: bold;
+  font-family: "Bahnschrift";
+  font-size: 2.31rem;
+}
+
+.sa {
+  font-family: "Poppins", sans-serif;
+}
+
+/* footer */
+.footer-box {
+  background-color: #234f4b;
+  color: #fff;
+}
+
+.f8 {
+  margin-top: 8rem;
+  margin-bottom: 50px;
+}
+
+.xs {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-col-grey {
+  color: #959595;
+}
